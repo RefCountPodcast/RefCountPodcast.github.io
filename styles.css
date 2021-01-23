@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#page-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid gray;
+    height: 64px;
+    padding: 0 16px;
+    margin: 0 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#page-header h1 {
+    font-size: 2em;
+}
+
+#page-content {
+    margin-top: 64px;
+}
+
+#page-footer {
+    border-top: 1px solid gray;
+    margin: 16px 8px;
+    padding: 16px 16px;
+}
