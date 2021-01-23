@@ -1,5 +1,5 @@
 # The Reference Counting Podcast
 
 
-https://RefCountPodcast.github.io
+https://refcountpodcast.com
 
