@@ -10,15 +10,29 @@
 
 <body>
   <header id="page-header">
-    <h1>The Reference Counting Podcast</h1>
+    <span id="page-header__title">
+      <h1>The Reference Counting Podcast</h1>
+    </span>
     <nav>
-      <a href="#about">About</a>
-      <a href="#episodes">Episodes</a>
+      <span id="page-header__links">
+        <a href="#about">About</a>
+        <a href="#episodes">Episodes</a>
+      </span>
     </nav>
   </header>
   <main id="page-content">
     <article>
-      <a name="about"></a>
+      <section id="page-content__about">
+        <a name="about"></a>
+        <section id="page-content__about-image">
+          <img src="logo.png" />
+        </section>
+        <section id="page-content__about-text">
+        <h2>About the Show</h2>
+          Taylor Hutchison and Andy Collins conversations about the technical and not-so-technical aspects of software
+          development.
+        </section>
+      </section>
     </article>
     <article>
       <a name="episodes"></a>
