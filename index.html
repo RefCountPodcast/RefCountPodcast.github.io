@@ -12,7 +12,7 @@
 <body>
   <header id="page-header">
     <span id="page-header__title">
-      <h1>The Reference Counting Podcast</h1>
+      <span>The Reference Counting Podcast</span>
     </span>
     <nav>
       <span id="page-header__links">
@@ -23,26 +23,32 @@
   </header>
   <main id="page-content">
     <article>
+      <a name="about"></a>
       <section id="page-content__about">
-        <a name="about"></a>
         <section id="page-content__about-image">
           <img src="logo.png" />
         </section>
         <section id="page-content__about-text">
-        <h2>About the Show</h2>
-          Taylor Hutchison and Andy Collins conversations about the technical and not-so-technical aspects of software
-          development.
+          <h2>About the Show</h2>
+          <span>
+            Taylor and Andy's casual conversations about the technical and not-so-technical aspects of
+            software development.
+          </span>
         </section>
       </section>
     </article>
     <article>
       <a name="episodes"></a>
-      https://refcountpodcast.s3.us-east-2.amazonaws.com/feed.rss
+      <h2>Episodes</h2>
+      <section id="page-content__episodes">
+      </section>
     </article>
   </main>
   <footer id="page-footer">
     &copy; 2021 The Reference Counting Podcast
   </footer>
+  <script src="https://polyfill.io/v3/polyfill.min.js"></script>
+  <script src="main.js"></script>
 </body>
 
 </html>
