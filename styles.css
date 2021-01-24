@@ -35,13 +35,16 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #132502;
-    color: #A3A3A3;
+    color: #D3D3D2;
 }
 
 #page-header h1 {
     font-size: 2em;
     margin: 0;
     padding: 0;
+    font-family: 'Pt Mono';
+    text-transform: uppercase;
+    font-weight: 100;
 }
 
 #page-header__title {
