@@ -36,7 +36,7 @@ function getRss(url, callback) {
 function renderEpisodes(el, xmlDoc) {
   var epElements = xmlDoc.getElementsByTagName('item');
   var html = '';
-  for (var i = epElements.length - 1; i >= 0; i--) {
+  for (var i = 0; i < epElements.length; i++) {
     html += episodeHTML(epElements[i]);
   }
   el.innerHTML = html;
