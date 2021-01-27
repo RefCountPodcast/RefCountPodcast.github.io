@@ -1,6 +1,6 @@
 
 function main() {
-  var URL = 'http://feed.refcountpodcast.com/feed.rss';
+  var URL = 'https://feed.refcountpodcast.com/feed.rss';
 
   getRss(URL, function (err, xmlDoc) {
     var el = document.getElementById('page-content__episodes');
