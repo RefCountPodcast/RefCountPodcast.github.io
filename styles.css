@@ -127,7 +127,7 @@ body {
 
 .episode__link a {
     text-decoration: none;
-    color: #9c8f35;
+    color: #132502;
     margin: 8px 0px;
 }
 
@@ -136,7 +136,7 @@ body {
 }
 
 .episode__pubDate {
-    color: #a3a3a3;
+    color: #353535;
     font-size: 0.8em;
     margin: 8px 0;
 }
