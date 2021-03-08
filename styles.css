@@ -114,6 +114,12 @@ body {
 #podcast_links {
     margin-top: 10px;
 }
+#podcast_links a {
+    text-decoration: none;
+}
+#podcast_links img {
+    height: 40px;
+}
 
 .episode {
     margin-bottom: 24px;
